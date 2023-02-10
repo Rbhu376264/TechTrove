@@ -1,7 +1,7 @@
 # Any changes to this file will not be reflected during testing and grading
 # While these are some test cases these are not the only cases used in grading
 from lab1_utils import TextbookStack, apply_sequence
-from lab1_solution import breadth_first_search, depth_first_search
+from lab1 import breadth_first_search, depth_first_search
 
 if __name__ == '__main__':
     n_pass = 0
