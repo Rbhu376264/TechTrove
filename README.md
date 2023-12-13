@@ -16,6 +16,7 @@ This project focuses on analyzing the variability of the ozone layer using Pytho
 
 ## Usage
 After installation, execute the Jupyter notebooks in the following order:
+Before running into following steps please make sure to unzip the final_data.zip.
 - `preprocessing.ipynb`: Prepares and cleans the data.
 - `modeling.ipynb`: Builds models to analyze the ozone data.
 - `analysis.ipynb`: Conducts a comprehensive analysis of the results.
