@@ -1,0 +1,65 @@
+Problem-1
+Part (a)
+Since I have cloned the repositry, all of my files will be tracked and unmodified Since
+Git just checked them out and you haven’t edited anything.
+
+The command will look like this:-
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+Part(b)
+After the command I would see that README.md is modified and fun_problem.txt is untracked.
+
+Part(c)
+When i do the following command it would say modified for README.md and new file for fun_problem.txt
+as the fun_problem.txt is staged now, and README.md was already staged but just modified.
+
+Part(d)
+In this you have sent the files README.md anf fun_problem.txt to server and again it has two modified files to be
+committed as README.md and fun_problem.txt.
+
+Part(e)
+After the command the git status will show that you have to commit modified files like README.md and would not give any changes to fun_problem.txt, since it has
+been checked out.
+
+The contents of the fun_problem.txt is empty as that's what we added it to it, and since we did checkout
+any further changes will not show up in the main branch.
+
+Part(f)
+After the command it will show that README.md has been modified and it has been staged to commit. 
+
+
+Problem-2
+
+Part(a)
+1. TAB
+
+Part(b)
+
+When the make clean is executed it will delete the executeables of shape1 and shape2.
+The command will look like this rm -f *.o *~ shape1 shape2 *~.
+When make shape1 is called it will complie the shape1 along with all the executebles shape1.o shape.o with neccessary flags.
+the command will look like this:
+g++ -I$. -std=c++11 -ggdb shape1.o shape2.o -o shape1 -lm
+
+Part(c)
+The purpose of .PHONY rule is to make sure that the command you will call is explicit and is not
+associated with a executible file or a file never have that name.
+
+Part(d)
+Option 2. and 4.
+
+Problem-3
+
+1. A data type that can used for this would be a list of teams(string). It will be easier to just do a push_back on the list and store the teams in the list in the order of each coming year.
+2. A data type that can used for this would be a set of SSN(int). A set would be a great approach for this since we do not need to want to have duplicates and we knoow that SSN is unique to each person.
+3. A data type that can be used for this would be a map of names(string) as the the key and phone-number(string) as value. So, if a user searches a name it gets a number in return if the contac of the person 
+name exists.
+4.A data type that can be used here would a map of states(string) as key and a map of a zipcode(int) and set of zipcodes(set<int>) as the value. Then, I can give the
+zipcode i want to search as an input and it would see if it exists in the set or not.
+
+
+

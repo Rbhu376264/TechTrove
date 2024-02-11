@@ -1,0 +1,15 @@
+Starting point is L and Finishing point is A.
+-explore L 
+    - discover H (g = 1, h = 4, f = 5)
+    - discover P (g = 1, h = 6, f = 7)
+-explore H 
+    - discover D (g = 2, h = 3, f = 5)
+    - discover G (g = 2, h = 3, f = 5)
+-explore D 
+    - discover c (g = 3, h = 2, f = 5)
+-explore C 
+    - discover B (g = 4, h = 1, f = 5)
+-explore B 
+    - discover A (g = 5, h = 0, f = 5)    
+- explore A 
+    Reached the final destination.
