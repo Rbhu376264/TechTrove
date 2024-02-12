@@ -1,0 +1,19 @@
+[ 
+    {"cuisine": "American"},
+    {"cuisine": "Barbecue"},
+    {"cuisine": "Chinese"},
+    {"cuisine": "French"},
+    {"cuisine": "Indian"},
+    {"cuisine": "Italian"},
+    {"cuisine": "Japanese"},
+    {"cuisine": "Mexican"},
+    {"cuisine": "Pizza"},
+    {"cuisine": "Seafood"},
+    {"cuisine": "Sushi"},
+    {"cuisine": "Thai"},
+    {"cuisine": "Korean"},
+    {"cuisine": "Vietnamese"},
+    {"cuisine": "Dessert"},
+    {"cuisine": "Baked Good"},
+    {"cuisine": "Mediterranean"}
+]

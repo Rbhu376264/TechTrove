@@ -1,0 +1,3 @@
+[submodule "backend/Assignment4Backend"]
+	path = backend/Assignment4Backend
+	url = https://github.com/zmerchant17/Assignment4Backend.git

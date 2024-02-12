@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+.navbar nav {
+    background: #FBCE76;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0em 1em 0em;
+    width: 100%;
+    margin-top: -7em;
+    position: fixed;
+}
+
+#logo {
+    height: 3em;
+    padding-right: 1em;
+    vertical-align: middle;
+}
+
+#left {
+    margin-left: 1em;
+    align-items: center;
+}
+
+#right {
+    margin-right: 1em;
+}
+
+.link {
+    padding: 0.5em;
+}
+
+#left-reg {
+    margin-left: 1em;
+    align-content: center;
+}
+
+#middle-reg {
+    /* margin-right: 1em; */
+}
+
+#right-reg {
+    margin-right: 1em;
+}
