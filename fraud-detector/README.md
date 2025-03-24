@@ -64,10 +64,10 @@ fraud-detector/
 ## 📊 Exploratory Data Analysis
 
 - **Class Imbalance**  
-  ![Class Distribution](assets/class_distribution.png)
+  ![alt text](image.png)
 
 - **Confusion Matrix**  
-  ![Confusion Matrix](assets/confusion_matrix.png)
+  ![alt text](image-1.png)
 
 ---
 
