@@ -1,0 +1,41 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# OS-specific
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.zip
+
+# Model artifacts
+*.pkl
+*.h5
+*.joblib
+
+# Cache
+.cache/
+.kaggle/
+__MACOSX/
+
+# Logs and runtime
+*.log
+*.pid
+
+# VS Code
+.vscode/
+
+# Outputs
+assets/
