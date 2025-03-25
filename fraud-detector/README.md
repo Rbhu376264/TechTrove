@@ -14,12 +14,18 @@ To address this, I:
 - Trained a **Random Forest model**
 - Achieved strong fraud detection performance without overfitting
 
+To make an API call using FastAPI:
+  - I did use prompt enegineering skills to create a data set.
+  - The data set generate input for the pre-trained model and runs tests on it.
+
 ---
 
 ## 📂 Project Structure
 
 ```
 fraud-detector/
+├── app/
+│   └── main.py
 ├── data/                  # Input CSV (ignored in repo)
 ├── model/                 # Trained model (.pkl)
 ├── notebooks/
@@ -87,13 +93,16 @@ python src/train_model.py
 ```bash
 jupyter notebook notebooks/EDA.ipynb
 ```
-
+### Step 4:  Test the API Call
+```bash
+python app/main.py
+```
 ---
 
 ## 🔮 What's Next
 
-✅ Phase 1: Model + EDA (complete)  
-🔜 **Phase 2**: Build an API using **FastAPI**  
+✅ **Phase 1**: Model + EDA (complete)  
+✅ **Phase 2**: Build an API using **FastAPI**  
 🔜 **Phase 3**: Create a web app with **Vercel v0** or Streamlit  
 🔜 **Phase 4**: Deploy & share!
 
