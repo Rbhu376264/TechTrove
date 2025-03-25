@@ -18,6 +18,9 @@ fonttools==4.56.0
 h11==0.14.0
 httpcore==1.0.7
 httpx==0.28.1
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1733208806608/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1733569351617/work
+fonttools==4.56.0
 idna==3.10
 imbalanced-learn==0.13.0
 importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1737420181517/work
