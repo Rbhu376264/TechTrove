@@ -39,3 +39,8 @@ __MACOSX/
 
 # Outputs
 assets/
+
+# Secrets & keys
+*.key
+*.pem
+*.crt
